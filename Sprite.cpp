@@ -141,5 +141,16 @@ void Sprite::checkTimers(HWND hWnd, int windowWidth, int windowHeight) {
         }
     }
 
+
 }
+
+void Sprite::killAllTimers(HWND hWnd) {
+    for (int i = 0 ; i < 4; i++) {
+        if (timers[i] != NULL)
+            KillTimer(hWnd,i+1);
+    }
+
+}
+
+
 

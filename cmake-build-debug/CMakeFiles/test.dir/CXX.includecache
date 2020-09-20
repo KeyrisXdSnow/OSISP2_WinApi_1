@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Keyris/CLionProjects/test/Sprite.h
+C:/Users/Keyris/Desktop/WinApi-master/Sprite.h
 vector
 -
 windows.h
 -
 
-C:/Users/Keyris/CLionProjects/test/main.cpp
+C:/Users/Keyris/Desktop/WinApi-master/main.cpp
 iostream
 -
 windows.h
@@ -22,7 +22,7 @@ tchar.h
 vector
 -
 Sprite.h
-C:/Users/Keyris/CLionProjects/test/Sprite.h
+C:/Users/Keyris/Desktop/WinApi-master/Sprite.h
 gdiplus.h
 -
 

@@ -1,4 +1,4 @@
-"E:\C++\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Keyris\CLionProjects\test
+"E:\C++\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Keyris\Desktop\WinApi-master
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Keyris/CLionProjects/test/cmake-build-debug
+-- Build files have been written to: C:/Users/Keyris/Desktop/WinApi-master/cmake-build-debug

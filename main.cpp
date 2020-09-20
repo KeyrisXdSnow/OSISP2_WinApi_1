@@ -203,7 +203,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message,WPARAM wParam, LPARAM lParam) {
         }
 
         case WM_PAINT : {
-            hdc = BeginPaint(hWnd,&ps);
+            hdc = BeginPaint(hWnd,&ps);                  
             //BitBlt(hdc,  sprite->getRightTopX(),  sprite->getRightTopY(), bitmap.bmWidth, bitmap.bmHeight, memBit, 0, 0, SRCCOPY);
             StretchBlt(hdc, sprite->getRightTopX(),sprite->getRightTopY(),sprite->getWidth(),sprite->getHeight(),memBit,0,0,bitmap.bmWidth, bitmap.bmHeight,SRCCOPY);
             //Rectangle(hdc,sprite->getRightTopX(), sprite->getRightTopY(),sprite->getLeftBottomX(),sprite->getLeftBottomY());
@@ -213,6 +213,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message,WPARAM wParam, LPARAM lParam) {
         }
 
         case WM_DESTROY :
+            KillTimer(hWnd,0);
+            sprite->killAllTimers(hWnd);
+            delete sprite;
             DeleteDC(memBit);
             PostQuitMessage(0);
             break; // Завершение программы
@@ -254,7 +257,7 @@ int WINAPI _tWinMain(HINSTANCE This, // Дескриптор текущего п
     wc.cbWndExtra = 0; // Нет дополнительных данных окна
 
     // Заполнение окна белым цветом
-    wc.hbrBackground = (HBRUSH) (COLOR_WINDOW + 1);
+    wc.hbrBackground = (HBRUSH) (COLOR_WINDOW + 2);
     //Дескриптор кисти, которая используется для заполнения окна.
     //Стандартная конструкция, создает системную кисть белого цвета
     //WHITE_BRUSH. Требуется явное преобразование типа — HBRUSH.
@@ -282,6 +285,7 @@ int WINAPI _tWinMain(HINSTANCE This, // Дескриптор текущего п
                         NULL); // Дополнительной информации нет
 
     ShowWindow(hWnd, mode); // Показать окно
+    UpdateWindow(hWnd);
 
     // Цикл обработки сообщений
 

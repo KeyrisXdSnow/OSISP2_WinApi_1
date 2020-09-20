@@ -52,6 +52,8 @@ public:
 
     void checkTimers(HWND hWnd, int windowWidth, int windowHeight);
 
+    void killAllTimers (HWND hWnd);
+
 };
 
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Keyris/CLionProjects/test/Sprite.cpp" "C:/Users/Keyris/CLionProjects/test/cmake-build-debug/CMakeFiles/test.dir/Sprite.cpp.obj"
-  "C:/Users/Keyris/CLionProjects/test/main.cpp" "C:/Users/Keyris/CLionProjects/test/cmake-build-debug/CMakeFiles/test.dir/main.cpp.obj"
+  "C:/Users/Keyris/Desktop/WinApi-master/Sprite.cpp" "C:/Users/Keyris/Desktop/WinApi-master/cmake-build-debug/CMakeFiles/test.dir/Sprite.cpp.obj"
+  "C:/Users/Keyris/Desktop/WinApi-master/main.cpp" "C:/Users/Keyris/Desktop/WinApi-master/cmake-build-debug/CMakeFiles/test.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

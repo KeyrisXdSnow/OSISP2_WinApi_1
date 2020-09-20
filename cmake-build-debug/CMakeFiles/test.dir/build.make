@@ -62,10 +62,10 @@ RM = "E:\C++\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Keyris\CLionProjects\test
+CMAKE_SOURCE_DIR = C:\Users\Keyris\Desktop\WinApi-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Keyris\CLionProjects\test\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Keyris\Desktop\WinApi-master\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/test.dir/flags.make
 
 CMakeFiles/test.dir/main.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Keyris\CLionProjects\test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/main.cpp.obj"
-	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\main.cpp.obj -c C:\Users\Keyris\CLionProjects\test\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Keyris\Desktop\WinApi-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/main.cpp.obj"
+	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\main.cpp.obj -c C:\Users\Keyris\Desktop\WinApi-master\main.cpp
 
 CMakeFiles/test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/main.cpp.i"
-	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Keyris\CLionProjects\test\main.cpp > CMakeFiles\test.dir\main.cpp.i
+	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Keyris\Desktop\WinApi-master\main.cpp > CMakeFiles\test.dir\main.cpp.i
 
 CMakeFiles/test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/main.cpp.s"
-	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Keyris\CLionProjects\test\main.cpp -o CMakeFiles\test.dir\main.cpp.s
+	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Keyris\Desktop\WinApi-master\main.cpp -o CMakeFiles\test.dir\main.cpp.s
 
 CMakeFiles/test.dir/Sprite.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Sprite.cpp.obj: ../Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Keyris\CLionProjects\test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/Sprite.cpp.obj"
-	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\Sprite.cpp.obj -c C:\Users\Keyris\CLionProjects\test\Sprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Keyris\Desktop\WinApi-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/Sprite.cpp.obj"
+	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\Sprite.cpp.obj -c C:\Users\Keyris\Desktop\WinApi-master\Sprite.cpp
 
 CMakeFiles/test.dir/Sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Sprite.cpp.i"
-	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Keyris\CLionProjects\test\Sprite.cpp > CMakeFiles\test.dir\Sprite.cpp.i
+	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Keyris\Desktop\WinApi-master\Sprite.cpp > CMakeFiles\test.dir\Sprite.cpp.i
 
 CMakeFiles/test.dir/Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Sprite.cpp.s"
-	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Keyris\CLionProjects\test\Sprite.cpp -o CMakeFiles\test.dir\Sprite.cpp.s
+	E:\C++\Compiler\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Keyris\Desktop\WinApi-master\Sprite.cpp -o CMakeFiles\test.dir\Sprite.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
@@ -116,7 +116,7 @@ test.exe: CMakeFiles/test.dir/build.make
 test.exe: CMakeFiles/test.dir/linklibs.rsp
 test.exe: CMakeFiles/test.dir/objects1.rsp
 test.exe: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Keyris\CLionProjects\test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Keyris\Desktop\WinApi-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Keyris\CLionProjects\test C:\Users\Keyris\CLionProjects\test C:\Users\Keyris\CLionProjects\test\cmake-build-debug C:\Users\Keyris\CLionProjects\test\cmake-build-debug C:\Users\Keyris\CLionProjects\test\cmake-build-debug\CMakeFiles\test.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Keyris\Desktop\WinApi-master C:\Users\Keyris\Desktop\WinApi-master C:\Users\Keyris\Desktop\WinApi-master\cmake-build-debug C:\Users\Keyris\Desktop\WinApi-master\cmake-build-debug C:\Users\Keyris\Desktop\WinApi-master\cmake-build-debug\CMakeFiles\test.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test.dir/depend
 
